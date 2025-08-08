@@ -1,0 +1,25 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0b0c;
+  --fg: #f4f4f5;
+}
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+.card {
+  @apply border border-zinc-800 rounded-2xl p-4;
+}
+.btn {
+  @apply px-4 py-2 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition;
+}
