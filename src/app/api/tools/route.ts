@@ -1,7 +1,7 @@
 
 import { NextRequest, NextResponse } from 'next/server'
-import { prisma } from '@/lib/prisma'
-import { encodeGeohash, prefixForRadius } from '@/lib/geoutils'
+import { prisma } from '../../../lib/prisma'
+import { encodeGeohash, prefixForRadius } from '../../../lib/geoutils'
 
 export async function POST(req: NextRequest) {
   const body = await req.json()
