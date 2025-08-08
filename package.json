@@ -15,7 +15,7 @@
     "react-dom": "18.2.0",
     "stripe": "^14.0.0",
     "zod": "^3.23.8",
-    "ngeohash": "^0.6.6",
+    "ngeohash": "0.6.5",
     "clsx": "^2.1.1"
   },
   "devDependencies": {
