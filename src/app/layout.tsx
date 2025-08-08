@@ -1,5 +1,5 @@
 
-import './styles/globals.css'
+import '../styles/globals.css'
 
 export const metadata = {
   title: 'Tulado — Alquila herramientas cerca de ti',
